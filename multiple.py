@@ -3,7 +3,7 @@
 import re
 import sys
 
-dimen = '<dimen name=\"(.*?)\">(\d+)(.*?)</dimen>'
+dimen = '<dimen name=\"(.*?)\">(-?\d+)(.*?)</dimen>'
 dimen_format = '<dimen name=\"{0}\">{1}{2}</dimen>\n'
 
 
